@@ -26,7 +26,7 @@
 
         <!-- ~ Navbar Part ====================================================-->
 
-        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -41,13 +41,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -193,7 +193,7 @@
 
         <!-- ~ Shoes Section Starts ===========================================-->
 
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -248,7 +248,7 @@
 
         <!-- ~ Backpack Section Starts =========================================-->
 
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h2>BackPack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -301,7 +301,35 @@
 
         <!-- ~ Backpack Section Ends =========================================-->
 
+
+        <!-- ~ Subscribe Section Starts =======================================-->
+
+
+        <section style="height: 300px;"
+            class="container rounded-3 d-flex justify-content-center align-items-center bg-info" id="subscribe">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ~ Subscribe Section Ends =======================================-->
+
+
     </main>
+
+    <!-- ~ Footer Starts Here ===============================================-->
+    <footer class="mt-5 text-center">
+        <p><small>©2024. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
+    <!-- ~ Footer Ends Here ===============================================-->
 
 </body>
 
